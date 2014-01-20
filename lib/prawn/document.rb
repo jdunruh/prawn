@@ -98,6 +98,7 @@ module Prawn
     end
 
     # @private
+    #
     def self.inherited(base) 
       extensions.each { |e| base.extensions << e }
     end
